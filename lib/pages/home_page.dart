@@ -45,7 +45,7 @@ class _MyHomePageState extends State<HomePage> {
                         children: [
                           Text(
                             'Movies',
-                            style: Theme.of(context).textTheme.headline3,
+                            style: Theme.of(context).textTheme.displaySmall,
                           ),
                           const SizedBox(height: 20),
                           Container(

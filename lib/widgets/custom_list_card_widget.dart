@@ -47,7 +47,7 @@ class CustomListCardWidget extends StatelessWidget {
                     children: [
                       Text(
                         movie.title!,
-                        style: Theme.of(context).textTheme.headline6,
+                        style: Theme.of(context).textTheme.titleLarge,
                         softWrap: true,
                         overflow: TextOverflow.visible,
                       ),
